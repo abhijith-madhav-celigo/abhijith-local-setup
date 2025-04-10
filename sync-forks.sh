@@ -75,7 +75,7 @@ select REPO_NAME in "${REPOS[@]}" "Quit"; do
     git merge upstream/"$SYNC_BRANCH" || exit 1
 
     # Push to origin
-    git push origin "$SYNC_BRANCH" || exit 1
+    # git push origin "$SYNC_BRANCH" || exit 1
 
     # Return to original branch
     if [ "$CURRENT_BRANCH" != "$SYNC_BRANCH" ]; then
