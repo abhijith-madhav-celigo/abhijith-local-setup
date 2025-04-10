@@ -4,7 +4,7 @@ set -e
 source ~/.zsh_aliases
 
 # Static list of valid app names
-VALID_APPS=("integrator-app-ui" "authentication-service" "flow-management" "error-management" "api-gateway" "resource-management" "integrator" "integrator-qgmw" "endpoint-service")
+VALID_APPS=("system-apis" "integrator-workers" "integrator-app-ui" "authentication-service" "flow-management" "error-management" "api-gateway" "resource-management" "integrator" "integrator-qgmw" "endpoint-service")
 
 # Get the current directory name as the app name
 APP_NAME=$(basename "$PWD")

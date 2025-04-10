@@ -10,7 +10,7 @@ REPOS=(
   "flow-execution"
   #"integrator-adaptor"
   "api-gateway"
-  #"error-management"
+  "error-management"
   "flow-management"
   "integrator-app-ui"
   "integrator-workers"
@@ -20,7 +20,7 @@ REPOS=(
   "resource-management"
   "integrator"
   "integrator-qgmw"
-  #"system-apis"
+  "system-apis"
 )
 
 echo "📁 Available Repos:"
