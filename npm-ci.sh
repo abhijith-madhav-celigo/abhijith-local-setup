@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/zsh
 
 set -e
 
-${RBASE}/abhijith-local-setup/set_node.sh
+set-node
 npm ci
